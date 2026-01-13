@@ -1,0 +1,15 @@
+[project]
+name = "understanding-http"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.128.0",
+    "langchain-community>=0.4.1",
+    "langchain-ollama>=1.0.1",
+    "langchain-postgres>=0.0.16",
+    "psycopg[binary]>=3.3.2",
+    "sentence-transformers>=5.2.0",
+    "unstructured[docx]>=0.18.27",
+]
