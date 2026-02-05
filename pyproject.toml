@@ -11,5 +11,6 @@ dependencies = [
     "langchain-postgres>=0.0.16",
     "psycopg[binary]>=3.3.2",
     "sentence-transformers>=5.2.0",
+    "streamlit>=1.54.0",
     "unstructured[docx]>=0.18.27",
 ]
